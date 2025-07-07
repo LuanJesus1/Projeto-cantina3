@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofrinho da cantina </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+    <main class="cabecalho">
+
+        <img class="logo" src="img/Logo_neutro-removebg-preview (2) (1).png" alt="Logo" class="Logo">
+
+          <h1 id="fonte">
+            Cofrinho 
+              da
+            cantina 
+        </h1>
+
+        <button id="botao-informacao" class="botao">informação</button>
+
+        <button id="botao-ajuda" class="botao">Ajuda</button>
+
+        <div id="texto-informacao" style="display: none;">
+            Este site serve para facilitar na identificação do departamento quando o individuo(você), for realizar transferências via pix. Basta selecionar o departamento na aba de navegação e depois copiar no botão 'cópiar aqui'.
+        </div>
+
+        <div id="texto-ajuda" style="display: none;">
+            Procure mais informações com o vendendor.
+        </div>
+
+        
+    </main>
+
+
+    <main class="titulo-imagem">
+        
+      
+        
+    </main>
+    
+    <main class="conteudo">
+
+        <div>
+             <button id="botao-novos-convertidos" >Novos convertidos</button>
+
+            <div>
+                <p id="numero1" data-texto1="71988312870" style="display: none;">71988312870</p>
+
+                <button onclick="copiarNumero1()" id="copiar-novos" style="display: none;">Copiar pix</button>
+            </div>
+
+
+        <div>
+             <button id="botao-ministerio">Ministério de louvor</button>
+
+            <div>
+                <p id="email" data-texto2="Vanandrade1993@gmail.com" style="display: none;">Vanandrade1993@gmail.com</p>
+
+                <button onclick="copiarTexto1()" id="copiar-ministerio" style="display: none;">Cópiar Pix</button>
+            </div>
+        </div>
+
+        <div>
+             <button id="botao-projecao">Projeção</button>
+
+            <div>
+                <p id="numero2" data-texto3="71988312870" style="display: none;">71988312870</p>
+
+                <button onclick="copiarNumero2()" id="copiar-projecao" style="display: none;">Copiar pix</button>
+            </div>
+
+        
+        </div>
+        
+    </main>
+    <script src="esconder.js"></script>
+    <script src="copiar.js"></script>
+
+</body>
+</html>
