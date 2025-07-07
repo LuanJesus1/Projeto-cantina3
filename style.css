@@ -75,17 +75,19 @@ h1{
     top: 50%;
     transform: translateY(-80%);
     color: var(--corvar001);
+    margin-left: 30px;
 }
 
 #botao-informacao{
     width: 20%;
-    padding: 12px 30px 12px 12px;
+    padding: 12px 10px;
     text-align: center;
     border-radius: 8px;
     font-family: var(--font-family1);
     font-size: 15px;
     font-weight: 500;
     background-color: var(--corvar001);
+    margin-right: 30px;
 }
 
 #texto-informacao{
@@ -98,13 +100,14 @@ h1{
 
 #botao-ajuda{
     width: 20%;
-    padding: 12px 30px 12px 12px;
+    padding: 12px 10px;
     text-align: center;
     border-radius: 8px;
     font-family: var(--font-family1);
     font-size: 15px;
     font-weight: 500;
     background-color: var(--corvar001);
+    margin-left: 30px;
 }
 
 #texto-ajuda{
