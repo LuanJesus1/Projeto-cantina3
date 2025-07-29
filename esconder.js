@@ -1,6 +1,6 @@
-var textoInformacao = document.getElementById("texto-informacao")
+const textoInformacao = document.getElementById("texto-informacao")
 
-var botaoInformacao = document.getElementById("botao-informacao")
+const botaoInformacao = document.getElementById("botao-informacao")
 
 botaoInformacao.onclick = function() {
     if(textoInformacao.style.display == "") {
@@ -11,9 +11,9 @@ botaoInformacao.onclick = function() {
     }
 }
 
-var textoAjuda = document.getElementById("texto-ajuda")
+const textoAjuda = document.getElementById("texto-ajuda")
 
-var botaoAjuda = document.getElementById("botao-ajuda")
+const botaoAjuda = document.getElementById("botao-ajuda")
 
 
 
@@ -26,11 +26,11 @@ botaoAjuda.onclick = function() {
     }
 }
 
-var botaoNovosConvertidos = document.getElementById("botao-novos-convertidos")
+const botaoNovosConvertidos = document.getElementById("botao-novos-convertidos")
 
-var numeroPix1 = document.getElementById("numero1")
+const numeroPix1 = document.getElementById("numero1")
 
-var botaoCopiar1 = document.getElementById("copiar-novos")
+const botaoCopiar1 = document.getElementById("copiar-novos")
 
 botaoNovosConvertidos.onclick = function() {
     if(numeroPix1.style.display == "") {
@@ -50,11 +50,11 @@ botaoNovosConvertidos.onclick = function() {
     }
 }
 
-var botaoMinisterio = document.getElementById("botao-ministerio")
+const botaoMinisterio = document.getElementById("botao-ministerio")
 
-var emailPix1 = document.getElementById("email")
+const emailPix1 = document.getElementById("email")
 
-var botaoCopiar2 = document.getElementById("copiar-ministerio")
+const botaoCopiar2 = document.getElementById("copiar-ministerio")
 
 botaoMinisterio.onclick = function() {
     if(emailPix1.style.display == "") {
@@ -74,11 +74,11 @@ botaoMinisterio.onclick = function() {
     }
 }
 
-var botaoProjecao = document.getElementById("botao-projecao")
+const botaoProjecao = document.getElementById("botao-projecao")
 
-var numeroPix2 = document.getElementById("numero2")
+const numeroPix2 = document.getElementById("numero2")
 
-var botaoCopiar3 = document.getElementById("copiar-projecao")
+const botaoCopiar3 = document.getElementById("copiar-projecao")
 
 botaoProjecao.onclick = function() {
     if(numeroPix2.style.display == "") {
